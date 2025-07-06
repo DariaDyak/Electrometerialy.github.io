@@ -5,26 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Электроматериалы</title>
     <link rel="stylesheet" href="css/style.css">
-  
 </head>
-<body>
-    <div class="container">
-        <header>
-            <nav class="navbar">
-        <a href="#main" class="left">О компании</a>
-        <div class="right-group">
-            <a href="#catalog" class="right">Каталог товаров</a>
-            <a href="#payment" class="right">Способы оплаты</a>
-            <div style="display: flex; align-items: center; margin-left: 20px;">
-                <div class="logo2">
-                    <img src="https://github.com/DariaDyak/Electrometerialy.github.io/blob/main/image/Mask group.png" alt="Логотип2" height="20">
-                </div>
-                <a href="#Maykop2" class="right2">Майкоп</a>
-            </div>
-        </div>
-        </nav>
-        </header>
 
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#about" class="left">О компании</a>
+                <div class="right-group">
+                    <a href="#catalog" class="right">Каталог товаров</a>
+                    <a href="#payment" class="right">Способы оплаты</a>
+                    <div class="city-info">
+                        <div class="logo2">
+                            <img src="D:\Электроматериалы\image\Mask group.png" alt="Логотип2" height="25">
+                        </div>
+                        <a href="#Maykop2" class="right2">Майкоп</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+        
+    <div class="container">
         <div class="logo-container">
             <div class="logo">
                 <img src="D:\Электроматериалы\image\logo.png" alt="Логотип" width="220">
@@ -32,25 +34,29 @@
             <div class="search-container">
                 <input type="text" placeholder="Поиск по сайту" style="padding: 10px; width: 700px;">
                 <div class="work-time">
-                    Режим работы:<br>
-                    Пн-Вс<br>
-                    8:00-17:00
+                <span class="work-title">Режим работы:<br></span>
+                <span class="work-days">Пн-Вс<br></span>
+                <span class="work-days">8:00-17:00</span>
                 </div>
             </div>
         </div>
-
+        <section id="about">
+        <section id="catalog">
         <div class="marquee">
-        <div class="marquee-content">
-            &nbsp; &nbsp; СВЕТОТЕХНИКА &nbsp; &nbsp; МОДУЛЬНОЕ ОБОРУДОВАНИЕ &nbsp; &nbsp; КАБЕЛЬ &nbsp; &nbsp; НИЗКОВОЛЬТНОЕ ОБОРУДОВАНИЕ &nbsp; &nbsp; ЭЛЕКТРОИНСТРУМЕНТЫ &nbsp; &nbsp;
-            СВЕТОТЕХНИКА &nbsp; &nbsp; МОДУЛЬНОЕ ОБОРУДОВАНИЕ &nbsp; &nbsp; КАБЕЛЬ &nbsp; &nbsp; НИЗКОВОЛЬТНОЕ ОБОРУДОВАНИЕ &nbsp; &nbsp; ЭЛЕКТРОИНСТРУМЕНТЫ
-        </div>
+    <div class="marquee-content">
+        &nbsp; &nbsp; СВЕТОТЕХНИКА &nbsp; &nbsp; МОДУЛЬНОЕ ОБОРУДОВАНИЕ &nbsp; &nbsp; КАБЕЛЬ &nbsp; &nbsp; НИЗКОВОЛЬТНОЕ ОБОРУДОВАНИЕ &nbsp; &nbsp; ЭЛЕКТРОИНСТРУМЕНТЫ &nbsp; &nbsp;
+        СВЕТОТЕХНИКА &nbsp; &nbsp; МОДУЛЬНОЕ ОБОРУДОВАНИЕ &nbsp; &nbsp; КАБЕЛЬ &nbsp; &nbsp; НИЗКОВОЛЬТНОЕ ОБОРУДОВАНИЕ &nbsp; &nbsp; ЭЛЕКТРОИНСТРУМЕНТЫ
     </div>
+</div>
+        </section>
+         </section>
+
         <hr>
 
         <div class="main-content">
-            <!-- Каталог слева -->
+            <!-- Каталог слева -->            
             <div class="catalog">
-                <h3>Каталог товаров</h3>
+                <h3 class="work-catalog">Каталог товаров</h3>
                 <ul class="catalog-list">
                     <li>Кабели и провода
                         <ul class="submenu">
@@ -82,38 +88,130 @@
                     </li>
                 </ul>
             </div>
+            </section>
+            </section>
 
             <!-- Слайдер и текст справа -->
             <div class="slider-text-container">
                 <div class="slider">
                     <div class="slides">
-                        <div class="slide"><img src="D:\Электроматериалы\image\logo.png" alt="Слайд 1"></div>
-                        <div class="slide"><img src="D:\Электроматериалы\image\logo.png" alt="Слайд 2"></div>
-                        <div class="slide"><img src="D:\Электроматериалы\image\logo.png" alt="Слайд 3"></div>
+                        <div class="slide"><img src="D:\Электроматериалы\image\1.png" alt="Слайд 1"></div>
+                        <div class="slide"><img src="D:\Электроматериалы\image\2.png" alt="Слайд 2"></div>
+                        <div class="slide"><img src="D:\Электроматериалы\image\3.png" alt="Слайд 3"></div>
+                        <div class="slide"><img src="D:\Электроматериалы\image\4.png" alt="Слайд 4"></div>
                     </div>
                     <div class="buttons">
                         <button class="button" id="prev">‹</button>
                         <button class="button" id="next">›</button>
                     </div>
                 </div>
+                
                 <div class="textmain">
                     Мы рады приветствовать вас в нашем магазине, где вы найдете все необходимое для электромонтажа – от кабелей и автоматики до светильников и розеток. Мы предлагаем широкий ассортимент электротехнических материалов от проверенных производителей по доступным ценам!
                     Наши работники всегда готовы помочь с выбором и ответить на ваши вопросы. Приезжайте к нам – мы обеспечим вас надежными материалами! Ваша безопасность – наш приоритет!
                     <br><br>
-                    Наш магазин находится по адресу: г.Майкоп, ул. Пирогова, 173. Работаем ежедневно с 08:00 до 17:00.
+                    Наш магазин находится по адресу: <span class="work-title">г. Майкоп, ул. Пирогова, 173. </span>Работаем ежедневно <span class="work-title">с 08:00 до 17:00.</span>
                 </div>
+               
             </div>
         </div>
-   
+    
+    <h4>ЭЛЕКТРОМАТЕРИАЛЫ В МАЙКОПЕ</h4>    
     <div class="electro_in_Maykop">
-        <h4>ЭЛЕКТРОМАТЕРИАЛЫ В МАЙКОПЕ</h4>
         <div class="preimushestva">
-            <img src="D:\Электроматериалы\image\Group 7.png" alt="1" >
-            <img src="D:\Электроматериалы\image\Group 8.png" alt="1" >
-            <img src="D:\Электроматериалы\image\Group 9.png" alt="1" >
+            <div class="preim-item"><img src="D:\Электроматериалы\image\Group 7.png" alt="1" ></div>
+            <div class="preim-item"><img src="D:\Электроматериалы\image\Group 8.png" alt="1" ></div>
+            <div class="preim-item"><img src="D:\Электроматериалы\image\Group 9.png" alt="1" ></div>
         </div>
         </div>
 
+    <h4>НА ЧЕМ МЫ СПЕЦИАЛИЗИРУЕМСЯ?</h4>    
+    <div class="image-grid">
+    <!-- Первая строка -->
+    <div class="image-row">
+        <div class="image-hover-block">
+            <div class="image-container">
+                <img src="D:\Электроматериалы\image\image1-4.jpg" alt="Изображение 1">
+                <div class="overlay-text">
+                    <h3>Светотехника</h3><br>
+                    <p>Широкий ассортимент осветительных приборов от экономных LED-ламп до дизайнерских люстр и уличного освещения</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="image-hover-block">
+            <div class="image-container">
+                <img src="D:\Электроматериалы\image\03.jpg" alt="Изображение 2">
+                <div class="overlay-text">
+                    <h3>Электроустановочные изделия</h3><br>
+                    <p>Розетки, выключатели, распаечные коробки и монтажные системы от ведущих производителей</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="image-hover-block">
+            <div class="image-container">
+                <img src="D:\Электроматериалы\image\4i7wde2cxv1qy79hmdtdb92ci4878tso.jpeg" alt="Изображение 3">
+                <div class="overlay-text">
+                    <h3>Кабельно-проводниковая продукция</h3><br>
+                    <p>Полный спектр кабелей и проводов для бытового и промышленного применения</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="image-hover-block">
+            <div class="image-container">
+                <img src="D:\Электроматериалы\image\maxresdefault.jpg" alt="Изображение 4">
+                <div class="overlay-text">
+                    <h3>Низковольтное оборудование</h3><br>
+                    <p>Автоматические выключатели, УЗО, дифавтоматы и другие устройства защиты</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- Вторая строка -->
+            <div class="image-row">
+                <div class="image-hover-block">
+                    <div class="image-container">
+                        <img src="D:\Электроматериалы\image\4.png" alt="Электроинструменты">
+                        <div class="overlay-text">
+                            <h3>Придумать</h3>
+                            <p>Придумать</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="image-hover-block">
+                    <div class="image-container">
+                        <img src="D:\Электроматериалы\image\Снимок экрана 2025-07-06 182858.png" alt="Системы прокладки кабеля">
+                        <div class="overlay-text">
+                            <h3>Системы прокладки кабеля</h3>
+                            <p>Кабель-каналы, лотки, гофротрубы и аксессуары для монтажа</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="image-hover-block">
+                    <div class="image-container">
+                        <img src="D:\Электроматериалы\image\4.png" alt="Умный дом">
+                        <div class="overlay-text">
+                            <h3>Придумать</h3>
+                            <p>Придумать</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="image-hover-block">
+                    <div class="image-container">
+                        <img src="D:\Электроматериалы\image\Снимок экрана 2025-07-06 182933.png" alt="Электромонтажные материалы">
+                        <div class="overlay-text">
+                            <h3>Электромонтажные материалы</h3>
+                            <p>Изолента, клеммы, наконечники и другие расходные материалы</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</div>
 
 
     <h4>БРЕНДЫ, С КОТОРЫМИ МЫ СОТРУДНИЧАЕМ</h4>
@@ -139,10 +237,128 @@
         <div class="brand-item">
             <img src="D:\Электроматериалы\image\16.png" alt="Бренд 4">
         </div>
- 
+        <div class="brand-item">
+            <img src="D:\Электроматериалы\image\13.png" alt="Бренд 4">
+        </div>
+        <div class="brand-item">
+            <img src="D:\Электроматериалы\image\14.png" alt="Бренд 5">
+        </div>
+        <div class="brand-item">
+            <img src="D:\Электроматериалы\image\15.png" alt="Бренд 3">
+        </div>
+        <div class="brand-item">
+            <img src="D:\Электроматериалы\image\16.png" alt="Бренд 4">
+        </div>
+        <div class="brand-item">
+            <img src="D:\Электроматериалы\image\16.png" alt="Бренд 4">
+        </div>
+    </div>
+    
+    <h4>ПРЕИМУЩЕСТВА МАГАЗИНА "ЭЛЕКТРОМАТЕРИАЛЫ"</h4>
+    <div class="full-width-bg">
+    <div class="preim">
+    <div class="preim-container">
+        <div class="preim-column left">
+            <div class="preim-item">
+                <img src="D:\Электроматериалы\image\Group 19.png" alt="Преимущество 1">
+            </div>
+            <div class="preim-item">
+                <img src="D:\Электроматериалы\image\Group 20.png" alt="Преимущество 2">
+            </div>
+            <div class="preim-item">
+                <img src="D:\Электроматериалы\image\Group 21.png" alt="Преимущество 3">
+            </div>
+        </div>
+        <div class="preim-column right">
+            <div class="preim-item">
+                <img src="D:\Электроматериалы\image\Group 22.png" alt="Преимущество 4">
+            </div>
+            
+            <div class="preim-item">
+                <img src="D:\Электроматериалы\image\Group 23.png" alt="Преимущество 5">
+            </div>
+                       
+            <div class="preim-item">
+                <img src="D:\Электроматериалы\image\Group 24.png" alt="Преимущество 6">
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+    <section id="Maykop2"></section>
+    <div class="Magazin_na_karte">
+    <h4>МАГАЗИН НА КАРТЕ</h4>
+    <div class="karta" style="display: flex">
+    <div class="store-info" style="flex: 1; min-width: 300px;">
+            <br><br><strong>Режим работы:</strong><br>
+            Пн-Вс: с 8:00 - 17:00<br><br>
+            <strong>Магазин находится по адресу:</strong><br>
+            г. Майкоп, ул. Пирогова, 173<br><br><br>
+            
+        </p>
     </div>
 
-<script src="script.js"></script>
+    <!-- Блок с картой -->
+   
+       <div class="yandex-map-container">
+    <iframe 
+        src="https://yandex.ru/map-widget/v1/?ll=40.071896,44.602933&z=18&pt=40.071896,44.602933,pm2blm&mode=whatshere&whatshere[point]=40.071896,44.602933&whatshere[zoom]=18"
+        width="100%"
+        height="450"
+        frameborder="0"
+        allowfullscreen="true"
+        style="border: none; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.1);"
+        title="Магазин Электроматериалы на карте Майкопа">
+    </iframe>
+    <div class="map-overlay">
+        <a href="https://yandex.ru/maps/?ll=40.071896,44.602933&z=18&pt=40.071896,44.602933,pm2blm&mode=whatshere&whatshere[point]=40.071896,44.602933&whatshere[zoom]=18" 
+           target="_blank" 
+           class="open-map-btn">
+            Открыть карту в новом окне
+        </a>
+    </div>
+</div>
     
+
+<script src="script.js"></script>
+    </div>
+    </div>
+    </div>
 </body>
+
+<footer class="footer">
+    <div class="footer-container">
+        <!-- Логотип слева -->
+        <div class="footer-logo">
+            <img src="D:/Электроматериалы/image/Mask group2.png" alt="Электроматериалы" width="120">
+        </div>
+
+        <!-- Колонка с навигацией -->
+        <div class="footer-column">
+            <div class="footer-menu">
+                <a href="#about" class="footer-link">О компании</a>
+                <a href="#catalog" class="footer-link">Каталог товаров</a>
+                <a href="#payment" class="footer-link">Способы оплаты</a>
+                <a href="#brends" class="footer-link">Бренды</a>
+            </div>
+            
+            <!-- Кнопка отзывов -->
+            <div class="reviews-block">
+                <a href="https://yandex.ru/maps/org/elektromaterialy/159226139179/reviews/?ll=40.071905%2C44.602987&tab=reviews&z=16.7" 
+                   target="_blank" 
+                   class="reviews-button">
+                    <span class="rating">4.7</span>
+                    <span class="stars">★★★★★</span>
+                    <span class="reviews-text">Оставить отзыв</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Копирайт -->
+    <div class="copyright">
+        <p>2018 - 2025 © Магазин "Электроматериалы"</p>
+    </div>
+</footer>
+    
 </html>
